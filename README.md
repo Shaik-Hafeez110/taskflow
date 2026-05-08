@@ -2,7 +2,7 @@
 
 A full-stack project and task management application with role-based access control (Admin / Member).
 
-**Live Demo:** [your-app.railway.app](https://your-app.railway.app) ← replace after deploy
+**Live Demo:** [Task-Flow App](https://taskflow-production-60e1.up.railway.app/)
 
 ---
 
@@ -39,7 +39,7 @@ A full-stack project and task management application with role-based access cont
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/taskflow.git
+git clone https://github.com/Shaik-Hafeez110/taskflow.git
 cd taskflow
 
 # 2. Install all dependencies
@@ -65,7 +65,7 @@ cd ../frontend
 npm run dev
 ```
 
-App runs at `http://localhost:5173`
+App runs at `https://taskflow-production-60e1.up.railway.app/`
 
 ---
 
@@ -74,7 +74,7 @@ App runs at `http://localhost:5173`
 | Variable | Description | Example |
 |---|---|---|
 | `DATABASE_URL` | PostgreSQL connection string | `postgresql://user:pass@host:5432/taskflow` |
-| `JWT_SECRET` | Secret for signing JWTs | any long random string |
+| `JWT_SECRET` | Secret for signing JWTs | WBcJsCzttnbNaaXkxCgcVHpnScqqtDIf |
 | `PORT` | Server port (optional) | `5000` |
 | `NODE_ENV` | Environment | `production` |
 
